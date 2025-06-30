@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Guides - Global Impact Hub</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styling.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="images/logo.png" alt="Logo">
+      <span><strong>Global Impact Hub</strong></span>
+    </div>
+    <nav>
+      <a href="index.html">HOME</a>
+      <a href="projects.html">PROJECTS</a>
+      <a href="about.html">ABOUT</a>
+      <a href="dono.html">GET INVOLVED</a>
+      <a class="home-btn" href="resources.html">RESOURCES</a>
+    </nav>
+    <a href="contact.html">Contact</a>
+  </header>
+
+  <div class="main-content">
+    <div class="banner">
+      Resource Guides
+    </div>
+
+    <section>
+      <h3 class="section-title">How-to Guides</h3>
+      <div class="project-grid">
+        <div class="project-card">
+          <h3>Volunteering 101</h3>
+          <p>Steps to become a volunteer, what to expect, and training requirements.</p>
+          <button class="view-btn" onclick="toggleDetails(this)">View More</button>
+          <div class="more-info">
+            <p>Learn how to get started with volunteering, understand the commitment involved, and discover what training you'll need for different types of volunteer work with our partner organizations.</p>
+            <br>
+            <a class="view-btn" href="#" target="_blank">Download Guide</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <h3>How to Donate</h3>
+          <p>Detailed process on monetary or in-kind donations and how they make an impact.</p>
+          <button class="view-btn" onclick="toggleDetails(this)">View More</button>
+          <div class="more-info">
+            <p>This guide explains different ways to contribute financially or through material donations, ensuring your generosity reaches those who need it most effectively.</p>
+            <br>
+            <a class="view-btn" href="#" target="_blank">Download Guide</a>
+          </div>
+        </div>
+        
+        <div class="project-card">
+          <h3>Organizing Fundraisers</h3>
+          <p>Help individuals or organizations set up their own fundraising events.</p>
+          <button class="view-btn" onclick="toggleDetails(this)">View More</button>
+          <div class="more-info">
+            <p>Step-by-step instructions on planning and executing successful fundraising events, including templates, promotional strategies, and best practices for maximizing donations.</p>
+            <br>
+            <a class="view-btn" href="#" target="_blank">Download Guide</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h3 class="section-title">Community Support Materials</h3>
+      <div class="project-grid">
+        <div class="project-card">
+          <h3>Survivor/Beneficiary Toolkits</h3>
+          <p>Information for people the NGO serves on legal rights, mental health, and education access.</p>
+          <button class="view-btn" onclick="toggleDetails(this)">View More</button>
+          <div class="more-info">
+            <p>These comprehensive resources help beneficiaries understand their rights and access essential services including legal aid, mental health support, and educational opportunities.</p>
+            <br>
+            <a class="view-btn" href="#" target="_blank">Access Toolkits</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <h3>Local Resources Directory</h3>
+          <p>Information on local shelters, food banks, health centers, and other essential services.</p>
+          <button class="view-btn" onclick="toggleDetails(this)">View More</button>
+          <div class="more-info">
+            <p>A searchable database of local support services organized by region, including contact information, hours of operation, and eligibility requirements for various assistance programs.</p>
+            <br>
+            <a class="view-btn" href="#" target="_blank">Explore Directory</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h3 class="section-title">Best Practices for NGOs</h3>
+      <div class="project-grid">
+        <div class="project-card">
+          <h3>Starting a Community Project</h3>
+          <p>Templates and advice for grassroots leaders on launching impactful local initiatives.</p>
+          <button class="view-btn" onclick="toggleDetails(this)">View More</button>
+          <div class="more-info">
+            <p>Practical guidance for community leaders on needs assessment, stakeholder engagement, project planning, and measuring impact for sustainable community development projects.</p>
+            <br>
+            <a class="view-btn" href="#" target="_blank">Download Templates</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <h3>NGO Partnership Framework</h3>
+          <p>Guidelines for establishing effective collaborations between organizations.</p>
+          <button class="view-btn" onclick="toggleDetails(this)">View More</button>
+          <div class="more-info">
+            <p>Learn how to develop strategic partnerships, create memorandums of understanding, and implement collaborative projects that maximize impact through shared resources and expertise.</p>
+            <br>
+            <a class="view-btn" href="#" target="_blank">Download Framework</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq-section">
+      <h3>Frequently Asked Questions</h3>
+      <div class="faq-item">
+        <h4>How can I adapt these guides for my specific context?</h4>
+        <p>All our resources are designed to be adaptable. We recommend reviewing the principles and approaches, then modifying them to suit your local needs, cultural context, and available resources.</p>
+      </div>
+      <div class="faq-item">
+        <h4>Can I request a guide on a topic not listed here?</h4>
+        <p>Absolutely! We're continuously developing new resources based on community needs. Please <a href="contact.html">contact us</a> with your specific request, and our team will consider adding it to our development roadmap.</p>
+      </div>
+      <div class="faq-item">
+        <h4>Are these guides available in other languages?</h4>
+        <p>Many of our most popular guides are available in multiple languages. Look for the language selector icon on each guide's download page or contact us for translation requests.</p>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <div><a href="mailto:GlobalImpactHub@gmail.com">GlobalImpactHub@gmail.com</a></div>
+    <div>+20000000</div>
+    <div>Our socials: <div class="social-links">
+      <a href="https://www.facebook.com" target="_blank" class="social-icon facebook">
+        <i class="fab fa-facebook"></i>
+      </a>
+      <a href="https://www.twitter.com" target="_blank" class="social-icon twitter">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="https://www.instagram.com" target="_blank" class="social-icon instagram">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://www.linkedin.com" target="_blank" class="social-icon linkedin">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </div></div>
+    <div>123 Grove street, Cairo, Egypt</div>
+  </footer>
+
+  <script>
+    function toggleDetails(button) {
+      const card = button.parentElement;
+      card.classList.toggle('expanded');
+      
+      if (card.classList.contains('expanded')) {
+        button.textContent = 'View Less';
+      } else {
+        button.textContent = 'View More';
+      }
+    }
+  </script>
+</body>
+</html>

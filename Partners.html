@@ -1,0 +1,61 @@
+<Partners html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Partners</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f9f9f9;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .partners-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 40px;
+            margin-top: 40px;
+            align-items: center;
+            justify-items: center;
+        }
+        .partner {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            width: 200px;
+            height: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .partner img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Our Trusted Partners</h1>
+
+    <div class="partners-container">
+        <div class="partner">
+            <img src="partner1-logo.png" alt="Partner 1 Logo">
+        </div>
+        <div class="partner">
+            <img src="partner2-logo.png" alt="Partner 2 Logo">
+        </div>
+        <div class="partner">
+            <img src="partner3-logo.png" alt="Partner 3 Logo">
+        </div>
+        <!-- Add more partner logos as needed -->
+    </div>
+
+</body>
+</html>

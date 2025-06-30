@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Projects - Global Impact Hub</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styling.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="images/logo.png" alt="Logo">
+      <span><strong>Global Impact Hub</strong></span>
+    </div>
+    <nav>
+      <a href="index.html">HOME</a>
+      <a class="home-btn" href="#">PROJECTS</a>
+      <a href="about.html">ABOUT</a>
+      <a href="dono.html">GET INVOLVED</a>
+      <a href="resources.html">RESOURCES</a>
+    </nav>
+    <a href="contact.html">Contact</a>
+ 
+  </header>
+
+  <div class="main-content">
+    <div class="banner">
+      Explore Our Projects
+    </div>
+    <section>
+      <div class="filter-buttons">
+        <button data-filter="all">All</button>
+        <button data-filter="featured">Featured</button>
+        <button data-filter="success">Success</button>
+        <button data-filter="ongoing">Ongoing</button>
+      </div>
+      
+      <h3 class="section-title">Featured Projects</h3>
+
+      <div class="project-grid">
+        <div class="project-card" data-category="featured">
+          <img src="images/malnutrtion.jpeg" alt="malnutrition">
+          <h3>UNICEF – Child Nutrition Program</h3>
+          <p><strong>Goal:</strong> Reduce malnutrition in underdeveloped regions</p>
+          <p><strong>Impact:</strong> Reached 10,000+ children</p>
+          <p><strong>Status:</strong> Active in 12 countries</p>
+          <button class="view-btn" onclick="toggleDetails(this)">View More</button>
+
+          <div class="more-info">
+            <p>This program partners with local health organizations to deliver nutrition packs and training sessions.
+              <br><br>
+              <a class="view-btn" href="https://www.unicef.org/nutrition" target="_blank">Learn More on UNICEF</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="featured">
+        <img src="images/mental-health-1.jpg " alt="WHO Mental Health Awareness">
+          <h3>WHO – Mental Health Awareness</h3>
+          <p><strong>Goal:</strong> Strengthen post-conflict mental health support</p>
+          <p><strong>Impact:</strong> Community workshops and global campaigns</p>
+          <p><strong>Status:</strong> Ongoing</p>
+          <button class="view-btn" onclick="toggleDetails(this)">View More</button>
+          <div class="more-info">
+            <p>This project organizes global campaigns and community workshops to raise awareness and support mental health recovery in post-conflict areas.</p>
+            <br>
+            <a class="view-btn" href="https://www.who.int/health-topics/mental-health" target="_blank">Learn More on WHO</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h3 class="section-title">Success Stories</h3>
+      <div class="project-grid">
+        <div class="project-card" data-category="success">
+          <img src="images/ict-pacific-girls.jpg" alt="digital literacy girls">
+          <h3>UNESCO – Digital Literacy for Girls</h3>
+          <p><strong>Goal:</strong> Bridge the gender tech divide</p>
+          <p><strong>Impact:</strong> Trained 8,000+ girls in North Africa</p>
+          <p><strong>Status:</strong> Completed 2023</p>
+          <button class="view-btn" onclick="toggleDetails(this)">View More</button>
+          <div class="more-info">
+            <p>This program empowers young girls with digital skills, helping them overcome barriers to access in technology fields.</p>
+            <br>
+            <a class="view-btn" href="https://en.unesco.org/themes/gender-equality/digital-literacy" target="_blank">Learn More on UNESCO</a>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="success">
+          <img src="images/earthquake.jpeg" alt="earthquake">
+          <h3>Red Cross – Earthquake Relief</h3>
+          <p><strong>Goal:</strong> Rapid emergency response in Turkey</p>
+          <p><strong>Impact:</strong> Provided shelter and medical aid in 48 hours</p>
+          <p><strong>Status:</strong> Completed 2022</p>
+          <button class="view-btn" onclick="toggleDetails(this)">View More</button>
+          <div class="more-info">
+            <p>The Red Cross responded quickly to the Turkey earthquake, providing shelter, medical assistance, and emergency supplies to those in need.</p>
+            <br>
+            <a class="view-btn" href="https://www.redcross.org" target="_blank">Learn More on Red Cross</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h3 class="section-title">Ongoing Projects</h3>
+      <div class="project-grid">
+        <div class="project-card" data-category="ongoing">
+          <img src="images/clean_water.jpg" alt="cleanwatersudan">
+          <h3>Clean Water – Sudan</h3>
+          <p><strong>Goal:</strong> Install solar water pumps in remote villages</p>
+          <p><strong>Impact:</strong> 9/15 villages completed</p>
+          <p><strong>Status:</strong> In Progress</p>
+          <button class="view-btn" onclick="toggleDetails(this)">View More</button>
+          <div class="more-info">
+            <p>Providing clean water to Sudanese communities through solar-powered water pumps, reducing reliance on inconsistent water sources.</p>
+            <br>
+            <a class="view-btn" href="https://www.unicef.org/sudan" target="_blank">Learn More on UNICEF Sudan</a>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="ongoing">
+          <img src="images/reforesttion.jpg" alt="amazon reforestation">
+          <h3>WWF – Reforestation in the Amazon</h3>
+          <p><strong>Goal:</strong> Plant 1 million trees</p>
+          <p><strong>Impact:</strong> 750,000 trees planted</p>
+          <p><strong>Status:</strong> In Progress</p>
+          <button class="view-btn" onclick="toggleDetails(this)">View More</button>
+          <div class="more-info">
+            <p>This project aims to reforest large sections of the Amazon rainforest to combat climate change and restore biodiversity.</p>
+            <br>
+            <a class="view-btn" href="https://www.worldwildlife.org/places/amazon" target="_blank">Learn More on WWF</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="main-content">
+   
+    <div class="initiatives">
+      <h2>Project Funding Allocation</h2>
+      <p>Breakdown of budgets by sectors</p>
+      
+      <table class="styled-table">
+        <thead>
+          <tr>
+            <th>Sector</th>
+            <th>Allocated Funds</th>
+            <th>Funds Spent</th>
+            <th>Top Recipient</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Health Care</td>
+            <td>$2.5M</td>
+            <td>$1.7M</td>
+            <td>UNICEF</td>
+          </tr>
+          <tr>
+            <td>Education</td>
+            <td>$1.8M</td>
+            <td>$1.2M</td>
+            <td>UNESCO</td>
+          </tr>
+          <tr>
+            <td>Disaster Relief</td>
+            <td>$1.2M</td>
+            <td>$0.9M</td>
+            <td>Red Cross</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+</div>
+  <footer>
+    <div><a href="mailto:GlobalImpactHub@gmail.com">GlobalImpactHub@gmail.com</a></div>
+    <div>+20000000</div>
+    <div>Our socials: <div class="social-links">
+      <a href="https://www.facebook.com" target="_blank" class="social-icon facebook">
+        <i class="fab fa-facebook"></i>
+      </a>
+      <a href="https://www.twitter.com" target="_blank" class="social-icon twitter">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="https://www.instagram.com" target="_blank" class="social-icon instagram">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://www.linkedin.com" target="_blank" class="social-icon linkedin">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </div></div>
+    <div>123 Grove street, Cairo, Egypt</div>
+   
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

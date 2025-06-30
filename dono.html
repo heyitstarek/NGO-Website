@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <title>Donate - Global Impact Hub</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styling.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="images/logo.png" alt="Logo">
+      <span><strong>Global Impact Hub</strong></span>
+    </div>
+    <nav>
+      <a href="index.html">HOME</a>
+      <a href="projects.html">PROJECTS</a>
+      <a href="about.html">ABOUT</a>
+      <a class="home-btn" href="#">GET INVOLVED</a>
+      <a href="resources.html">RESOURCES</a>
+    </nav>
+    <a href="contact.html" class="contact-btn">Contact</a>
+    
+  </header>
+
+  <div class="main-content">
+    <div class="donation-info">
+      <h3>Make a Difference</h3>
+      <p>Your donation helps fund life-saving programs, education for children, clean water access, disaster relief, and more.</p>
+      <p>We partner with trusted organizations such as UNICEF, WHO, UNESCO, and Red Cross to ensure your contributions have a real impact.</p>
+      <p><strong>Every dollar counts. Thank you for your support!</strong></p>
+    </div>
+
+    <form class="donation-form">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" required >
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" required >
+
+      <label for="ngo">Select NGO</label>
+      <select id="ngo" name="ngo" required>
+        <option value="">-- Choose an NGO --</option>
+        <option value="unicef">UNICEF</option>
+        <option value="who">WHO</option>
+        <option value="unesco">UNESCO</option>
+        <option value="redcross">Red Cross</option>
+      </select>
+
+      <label for="amount">Donation Amount (USD)</label>
+      <input type="number" id="amount" name="amount" >
+
+      <label for="message">Message (optional)</label>
+      <textarea id="message" name="message" rows="4"></textarea>
+
+      <button type="submit" class="submit-btn">Donate Now</button>
+    </form>
+  </div>
+  <section class="initiatives">
+    <h2>Funding Tracking</h2>
+    <p>Track applications and project processes</p>
+    
+    <table class="styled-table">
+      <thead>
+        <tr>
+          <th>Project Title</th>
+          <th>Applicant Org</th>
+          <th>Amount Awarded</th>
+          <th>Progress</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Clean Water for Sudan</td>
+          <td>WHO</td>
+          <td>$50K</td>
+          <td><span class="status-ongoing">Delayed</span></td>
+        </tr>
+        <tr>
+          <td>School Construction in Yemen</td>
+          <td>UNICEF</td>
+          <td>$75K</td>
+          <td><span class="status-open">On Track</span></td>
+        </tr>
+        <tr>
+          <td>Malaria Prevention Program</td>
+          <td>Red Cross</td>
+          <td>$120K</td>
+          <td><span class="status-open">Completed</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  
+  <div class="project-grid">
+    <div class="project-card">
+   
+      <h3>Volunteer opportunities</h3>
+      <p>Join our team of dedicated volunteers and make a hands-on difference in communities around the world.</p>
+     <a href="volunteer.html">
+      <p>Learn more →</p>
+    </a>
+  </div>
+</div>
+<div class="project-grid">
+  <div class="project-card">
+    <h3>events and campaigns</h3>
+    <p>Discover upcoming events and join our campaigns to support important causes and connect with like-minded people.</p>
+  <a href="events.html">
+    <p>View more →</p>
+  </a>
+</div>
+</div>
+
+    <footer>
+    <div><a href="mailto:GlobalImpactHub@gmail.com">GlobalImpactHub@gmail.com</a></div>
+    <div>+20000000</div>
+    <div>Our socials: <div class="social-links">
+      <a href="https://www.facebook.com" target="_blank" class="social-icon facebook">
+        <i class="fab fa-facebook"></i>
+      </a>
+      <a href="https://www.twitter.com" target="_blank" class="social-icon twitter">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="https://www.instagram.com" target="_blank" class="social-icon instagram">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://www.linkedin.com" target="_blank" class="social-icon linkedin">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </div></div>
+    <div>123 Grove street, Cairo, Egypt</div>
+   
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
